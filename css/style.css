@@ -6,7 +6,6 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
-
 * {
   padding: 0;
   margin: 0;
@@ -28,28 +27,20 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(85, 197, 122, 0.8)
-    ),
-    url('../img/hero.jpg');
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 }
-
 .header__logo-box {
   position: absolute;
   left: 4rem;
   top: 4rem;
 }
-
 .header__logo {
   height: 3.5rem;
 }
-
 .header__text-box {
   position: absolute;
   left: 50%;
@@ -64,7 +55,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 6rem;
 }
-
 .heading-primary--main {
   display: block;
   font-size: 6rem;
@@ -78,15 +68,13 @@ body {
   letter-spacing: 1.75rem;
 }
 
-.btn:link,
-.btn:visited {
+.btn:link, .btn:visited {
   display: inline-block;
   text-decoration: none;
   padding: 1.5rem 4rem;
   border-radius: 10rem;
   transition: all 0.3s;
 }
-
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -95,7 +83,6 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-
 .btn--white {
   color: #777;
   background-color: #fff;
