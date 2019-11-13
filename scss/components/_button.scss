@@ -1,0 +1,28 @@
+@use "../abstracts/variables"as *;
+
+.btn {
+
+  &:link,
+  &:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba($color-black, 0.2);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, 0.1);
+  }
+
+  &--white {
+    color: $color-gray-dark;
+    background-color: $color-white;
+  }
+}
