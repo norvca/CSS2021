@@ -25,6 +25,11 @@
     color: $color-gray-dark;
     background-color: $color-white;
   }
+
+  &--green {
+    color: $color-white;
+    background-color: $color-primary;
+  }
 }
 
 .btn-text {
