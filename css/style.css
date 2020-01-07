@@ -41,6 +41,11 @@ body {
   }
 }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff;
+}
+
 body {
   font-family: sans-serif;
   font-weight: 400;
