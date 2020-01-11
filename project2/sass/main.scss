@@ -1,22 +1,3 @@
-// Colors
-$primary: #eb2f64;
-$primary-light: #ff3366;
-$primary-dark: #ba265d;
-
-$grey-light1: #faf9f9;
-$grey-light2: #f4f2f2;
-$grey-light3: #f0eeee;
-$grey-light4: #ccc;
-
-$grey-dark1: #333;
-$grey-dark2: #777;
-$grey-dark3: #999;
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: $primary;
-}
+@use 'base';
+@use 'layout';
+@use 'components';
