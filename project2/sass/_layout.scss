@@ -1,7 +1,7 @@
 .container {
   max-width: 120rem;
   margin: 8rem auto;
-  background: var(--color-grey-light-2);
+  background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
   min-height: 50rem;
 }
@@ -31,10 +31,9 @@
 }
 
 .hotel-view {
-  background-color: var(--color-grey-dark);
+  background-color: var(--color-white);
   flex: 1;
 
   // FIXME: Test
   height: 80rem;
-  background: orange;
 }
